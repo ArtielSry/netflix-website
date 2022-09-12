@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+	<link rel="stylesheet" type="text/css" href="normalize.css">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="http://fonts.gstatic.com">
+	<script src="java.js" defer></script>
+	<title>Programando Netflix</title>
+</head>
+<body>
+	<header class="header">
+	<a href="" title="Netflix" class="header__a">	<img class="header__img" src="img/logo.png">
+				</a>
+		<nav class="header__nav">
+			<ul class="header__ul">
+				<li class="header__li select">
+					<span class="select__span">English</span>
+					<ul class="select__ul">
+						<li class="select__li">
+							<a class="select__a" href="#" title="Español">Español</a>
+						</li>
+						<li class="select__li">
+							<a class="select__a" href="#" title="English">English</a>
+						</li>
+					</ul>
+				</li>
+				<li class="header__li">
+					<a href="#" title="iniciar sesión" class="header__login">
+						Sing In
+					</a>
+				</li>
+			</ul>
+		</nav>
+	</header>
+
+	<main class="main">
+		<article class="landing">
+			<h2 class="landing__h2">Unlimited movies, TV shows, and more.</h2>
+			<h3 class="landing__h3">Watch anywhere. Cancel anytime.</h3>
+			<p class="landing__p">Ready to watch? Enter your email to create or restart your membership.</p>
+			<form class="landing__form">
+				<input class="landing__input" type="email" name="email" placeholder="Email address">
+				<input class="landing__submit" type="submit" value="Get Started >">
+			</form>
+		</article>
+
+		<article class="specs">
+			<div class="specs__center">
+				<div class="specs__col">
+					<h4 class="specs__h4">Enjoy on your TV.</h4>
+					<p class="specs__p">Watch on Smart TVs, Playstation, Xbox, Chromecast, Apple TV, Blu-ray players, and more.</p>
+				</div>
+				<div class="specs__col multimedia">
+					<img class="specs__img" src="img/tv.png">
+					<video src="img/video1.m4v" contorls loop muted autoplay class="specs__video"></video>
+				</div>
+			</div>
+		</article>
+		<article class="specs">
+			<div class="specs__center inverso">	
+					<img class="specs__video" src="img/img2.png">
+					<!--<img class="icon" src="img/icon.gif">-->
+				
+				<div class="specs__col">
+					<h4 class="specs__h4">Download your shows to watch offline.</h4>
+					<p class="specs__p">Save your favorites easily and always have something to watch.</p>
+				</div>
+			</div>
+		</article>
+		<article class="specs">
+			<div class="specs__center">
+				<div class="specs__col">
+					<h4 class="specs__h4">Watch everywhere.</h4>
+					<p class="specs__p">Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV without paying more.</p>
+				</div>
+				<div class="specs__col pc">
+					<img class="specs__img" src="img/tv2.png">
+					<video src="img/video2.m4v" contorls loop muted autoplay class="specs__video"></video>
+				</div>
+			</div>
+		</article>
+		<article class="specs">
+			<div class="specs__center inverso">	
+					<img class="specs__video" src="img/img3.png">
+				<div class="specs__col">
+					<h4 class="specs__h4">Create profiles for kids.</h4>
+					<p class="specs__p">Send kids on adventures with their favorite characters in a space made just for them—free with your membership.</p>
+				</div>
+			</div>
+		</article>
+
+		<div class="faq">
+			<div class="faq__center">
+				<h3 class="faq__h3">Frequently Asked Questions</h3>
+				<ul class="faq__ul">
+					<li class="faq__li">
+						<div class="faq__btn">
+						<span class="faq__span">What can i watch on Netflix?</span>
+						<svg class="faq__svg" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus-lg" viewBox="0 0 16 16">
+  						<path fill-rule="evenodd" d="M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2Z"/>
+						</svg>
+						</div>
+					<div class="faq__info">
+						<p class="faq__p">Netflix has an extensive library of feature films, documentaries, TV shows, anime, award-winning Netflix originals, and more.</p>
+						<p>Watch as much as you want, anytime you want.</p>
+					</div>
+					</li>
+					<li class="faq__li">
+					<div class="faq__btn">
+						<span class="faq__span">What is Netflix?</span>
+						<svg class="faq__svg" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus-lg" viewBox="0 0 16 16">
+  						<path fill-rule="evenodd" d="M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2Z"/>
+						</svg>
+					</div>
+					<div class="faq__info">
+						<p class="faq__p">Netflix is a streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries, and more on thousands of internet-connected devices.
+						</p>
+					</div>
+					</li>
+					<li class="faq__li">
+					<div class="faq__btn">
+						<span class="faq__span">How much does Netflix cost?</span>
+						<svg class="faq__svg" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus-lg" viewBox="0 0 16 16">
+  						<path fill-rule="evenodd" d="M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2Z"/>
+						</svg>
+					</div>
+					<div class="faq__info">
+						<p class="faq__p">Watch Netflix on your smartphone, tablet, Smart TV, laptop, or streaming device, all for one fixed monthly fee. Plans range from €7,99 to €17,99 a month. No extra costs, no contracts.</p>
+					</div>
+					</li>
+					<li class="faq__li">
+					<div class="faq__btn">
+						<span class="faq__span">Where can I watch?</span>
+						<svg class="faq__svg" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus-lg" viewBox="0 0 16 16">
+  						<path fill-rule="evenodd" d="M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2Z"/>
+						</svg>
+					</div>
+					<div class="faq__info">
+						<p class="faq__p">Watch anywhere, anytime. Sign in with your Netflix account to watch instantly on the web at netflix.com from your personal computer or on any internet-connected device that offers the Netflix app</p>
+					</div>
+					</li>
+					<li class="faq__li">
+					<div class="faq__btn">
+						<span class="faq__span">How do I cancel?</span>
+						<svg class="faq__svg" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus-lg" viewBox="0 0 16 16">
+  						<path fill-rule="evenodd" d="M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2Z"/>
+						</svg>
+					</div>
+					<div class="faq__info">
+						<p class="faq__p">Netflix is flexible. There are no pesky contracts and no commitments. You can easily cancel your account online in two clicks. There are no cancellation fees – start or stop your account anytime.</p>
+					</div>
+					</li>
+				</ul>
+				</div>
+			</div>
+		<div class="register">
+			<p class="register__p">Ready to watch? Enter your email to create or restart your membership.</p>
+			<form class="register__form"  method="post" action="#">
+				<input class="register__input" type="email" placeholder="Email address">
+				<input class="register__submit" type="submit" value="Get started I">
+			</form>
+		</div>
+	</main>
+	<footer class="footer">
+		<div class="footer__center">
+		<div class="footer__fila">
+			<p class="footer__p">Questions? Call 0900-000-7969</p>
+		</div>
+		<div class="footer__fila">
+			<ul class="footer__ul">
+				<li class="footer__li"><a href="#" class="footer__a" title="Texto">FAQ</a></li>
+				<li class="footer__li"><a href="#" class="footer__a" title="Texto">Investor Relations</a></li>
+				<li class="footer__li"><a href="#" class="footer__a" title="Texto">Ways to Watch</a></li>
+				<li class="footer__li"><a href="#" class="footer__a" title="Texto">Impressum</a></li>		
+				<li class="footer__li"><a href="#" class="footer__a" title="Texto">Legal Notices</a></li>
+			</ul>
+			<ul class="footer__ul">
+				<li class="footer__li"><a href="#" class="footer__a" title="Texto">Help Center</a></li>
+				<li class="footer__li"><a href="#" class="footer__a" title="Texto">Jobs</a></li>
+				<li class="footer__li"><a href="#" class="footer__a" title="Texto">Terms of Use</a></li>
+				<li class="footer__li"><a href="#" class="footer__a" title="Texto">Contact Us</a></li>		
+				<li class="footer__li"><a href="#" class="footer__a" title="Texto">Only on Netflix</a></li>
+			</ul>
+			<ul class="footer__ul">
+				<li class="footer__li"><a href="#" class="footer__a" title="Texto">Account</a></li>
+				<li class="footer__li"><a href="#" class="footer__a" title="Texto">Redeem Gitf Cards</a></li>
+				<li class="footer__li"><a href="#" class="footer__a" title="Texto">Privacy</a></li>
+				<li class="footer__li"><a href="#" class="footer__a" title="Texto">Speed Test</a></li>	
+			</ul>
+			<ul class="footer__ul">
+				<li class="footer__li"><a href="#" class="footer__a" title="Texto">Media Center</a></li>
+				<li class="footer__li"><a href="#" class="footer__a" title="Texto">Buy Gitf Cards</a></li>
+				<li class="footer__li"><a href="#" class="footer__a" title="Texto">Cookie Preferences</a></li>
+				<li class="footer__li"><a href="#" class="footer__a" title="Texto">Legal Guarantee</a></li>	
+			</ul>
+		</div>
+		<div class="footer__fila">Netflix Programacion</div>
+		</div>
+	</footer>
+</body>
+</html>
