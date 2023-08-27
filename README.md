@@ -1,5 +1,7 @@
 # netflix-website
 
+DEMO: https://github.com/ArtielSry/netflix-website/tree/main
+
 This page is for educational purposes only, it is not the official Netflix website, just a programming practice.
 
 ![1](https://user-images.githubusercontent.com/113340763/189669466-c5321b56-f9d8-4111-93b7-36e209130f76.png)
